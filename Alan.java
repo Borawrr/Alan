@@ -21,7 +21,18 @@ public class Alan {
 
         double Alan = (u * (u-kenar1)* (u-kenar2)* (u-kenar3));
 
-        System.out.println("Ucgeninizin Alani : " + Math.sqrt(Alan));
+        if(kenar1 + kenar2 >= kenar3 && kenar3 + kenar2 >= kenar1 && kenar1 + kenar3 >= kenar2 )
+        {
+            System.out.println("Ucgeninizin Alani : " + Math.sqrt(Alan));
+        }else{
+            System.out.println("Bu üçgen çizilemez");
+        }
+        
+        
+        
+        
+        
+        
 
     }
 
