@@ -31,7 +31,7 @@ public class Alan {
         
         
         
-        
+        scanner.close();
         
 
     }
